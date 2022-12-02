@@ -32,6 +32,8 @@ chardet = "^3.0"
 pydantic = "^1.8.2"
 boto3 = "^1.17.79"
 spatula = ">=0.8.9,<1.0"
+dbt-core = "1.2"
+dbt-postgres = "1.2.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.4.1"
