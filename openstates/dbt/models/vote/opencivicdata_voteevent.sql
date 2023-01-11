@@ -1,8 +1,8 @@
 with opencivicdata_voteevent as (
-    select created_at,
-           updated_at,
+    select created_at not null,
+           updated_at not null,
            extras,
-           id,
+           id not null,
            identifier,
            motion_text,
            motion_classification,
